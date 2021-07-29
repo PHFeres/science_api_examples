@@ -1,0 +1,9 @@
+{
+  "process_times_primary_refining": {
+    "weighing": 10,
+    "desulfur_ladle": 10,
+    "desulfur_kr": 20,
+    "skimmer_kr": 10,
+    "skimmer_pig_iron": 20
+  }
+}

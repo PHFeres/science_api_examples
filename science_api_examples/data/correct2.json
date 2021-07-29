@@ -1,0 +1,32 @@
+{
+  "process_times_primary_refining": [
+        {
+            "activity_key": "weighing",
+            "duration": 10
+        },
+        {
+            "activity_key": "desulfur_ladle",
+            "duration": 10
+        },
+        {
+            "activity_key": "desulfur_kr",
+            "duration": 20
+        },
+        {
+            "activity_key": "skimmer_kr",
+            "duration": 10
+        },
+        {
+            "activity_key": "skimmer_pig_iron",
+            "duration": 20
+        },
+        {
+            "activity_key": "converter",
+            "duration": 38
+        },
+        {
+            "activity_key": "met_ladle",
+            "duration": 6
+        }
+    ]
+}
