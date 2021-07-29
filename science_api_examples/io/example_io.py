@@ -10,4 +10,11 @@ class ExampleIO(IOBaseClass):
 
     def get_output(self) -> dict:
 
-        return {"greet": f"hello {self.input_data['name']}"}
+        responses = list()
+        for elem in self.input_data["people"]:
+
+            responses.append(
+                f"hello {elem['name']}, you have {elem['money']} {elem['unit']}."
+            )
+
+        return {"responses": responses}

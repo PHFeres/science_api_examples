@@ -273,7 +273,7 @@ class GreeterResource(BaseResource):
         super().__init__()
 
         # Test argument
-        self.parser.add_argument('name', required=True, type=str)
+        self.parser.add_argument('people', required=True, type=dict, action="append")
 
         # this argument MUST NOT be removed, the queue Watcher uses it
         self.parser.add_argument('id', required=True, type=str)

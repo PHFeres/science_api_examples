@@ -1,4 +1,15 @@
 {
-  "name": "Wenderson",
+  "people": [
+    {
+      "name": "Wenderson",
+      "money": 100,
+      "unit": "BTC"
+    },
+    {
+      "name": "Feres",
+      "money": 100,
+      "unit": "R$"
+    }
+  ],
   "id": "kdjskjçsdk"
 }
