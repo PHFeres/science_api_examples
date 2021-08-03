@@ -3,12 +3,12 @@
     {
       "name": "Wenderson",
       "money": 100,
-      "unit": "BTC"
+      "unit": "bitcoin"
     },
     {
       "name": "Feres",
       "money": 100,
-      "unit": "R$"
+      "unit": "brazilian_real"
     }
   ],
   "id": "kdjskjçsdk"

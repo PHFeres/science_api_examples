@@ -1,3 +1,5 @@
+from enum import Enum
+
 from science_api.io import IOBaseClass
 
 
@@ -13,8 +15,14 @@ class ExampleIO(IOBaseClass):
         responses = list()
         for elem in self.input_data["people"]:
 
+            aux_currency = Currency[elem['unit'].upper()]
             responses.append(
-                f"hello {elem['name']}, you have {elem['money']} {elem['unit']}."
+                f"hello {elem['name']}, you have {elem['money']} {aux_currency.value}."
             )
 
         return {"responses": responses}
+
+
+class Currency(Enum):
+    BITCOIN = "BTC"
+    BRAZILIAN_REAL = "R$"
